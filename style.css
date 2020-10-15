@@ -1,0 +1,46 @@
+body{
+
+    background-color: black;
+}
+.start{
+
+    background-image: url("photos/bg.jpg");
+}
+.proff{
+height: 200px;
+border-radius: 200px;
+border: solid 3px silver;
+
+}
+.name{
+color: rgb(13, 238, 114);
+font-style: unset;
+text-align: center;
+margin-left: 40px;
+position:top;
+
+}
+#info{
+border-radius: 20px;
+font-size: 20px;
+font-style: italic; 
+background-color: violet;
+
+}
+#me{
+border:solid 5px goldenrod;
+color:whitesmoke;
+font-size: 30px;
+float: right;
+
+
+
+}
+#jell{
+
+font-size: 30px;
+background-color: violet;
+border-radius: 20px;
+font-family: fantasy;
+}
+
