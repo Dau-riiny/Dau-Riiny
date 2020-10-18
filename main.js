@@ -1,39 +1,31 @@
 $(function(){
-    $("#me").hide();
-$("#jell").on("click",function(){
-$(".name").slideDown(1000);
+    $('.projects').hide();
+    $('.text').hide();
+$("#me").hide();
+$('#icons').hide();
+$("#projects").on("click",function(){
+$(".projects").slideDown(2000)
 
 
-});
-
-/*name slide Down*/
-$("#jell").hover(function(){ 
-    
-$(".name").slideDown(2000);
-$("#me").slideDown(2000);
-$(this).text("See less");
 
 
-});
-$("#jell").dblclick(function(){ 
-    
-    $(".name").slideUp(2000);
-    $("#me").slideUp(2000);
-    $('#jelly').text("About me");
+})
+$("#abt").on("click",function(){
+    $("#me").slideDown(2000)
     
     
-    });
-
-$("#info").on("click",function(){
-
-});
-
-$("#proff").Blur(function(){ 
     
-$(this).hover();
+    
+    })
 
-
-
-});
-
+$("#phone").on("click",function(){
+    $(".text").toggle(2000)
+    
+    })
+    
+$("#contacts").on("click",function(){
+    $("#icons").toggle(2000)
+    
+    })
 }); 
+

@@ -4,7 +4,8 @@ body{
 }
 .start{
 
-    background-image: url("photos/bg.jpg");
+   /* background-image: url("photos/bg.jpg");*/
+    background-repeat: no-repeat;
 }
 .proff{
 height: 200px;
@@ -36,11 +37,39 @@ float: right;
 
 
 }
-#jell{
+.jell{
 
 font-size: 30px;
 background-color: violet;
 border-radius: 20px;
 font-family: fantasy;
 }
+.yellow{
+color: yellow;
+height: 100px;
+border-radius:50px;
 
+
+}
+#icons{
+height: 100px;
+border-radius:50px;
+
+}
+.text{
+color:gold;
+background-color:marron;
+border-radius:50px;
+
+}
+.works{
+    color:gold;
+}
+.projects{
+    border:solid 5px goldenrod;
+    color:whitesmoke;
+    font-size: 30px;
+    float: right;
+    
+
+}
